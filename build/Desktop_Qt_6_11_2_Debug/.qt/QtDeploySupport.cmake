@@ -28,7 +28,7 @@ if(QT_DEPLOY_PREFIX STREQUAL "")
 endif()
 get_filename_component(QT_DEPLOY_PREFIX "${QT_DEPLOY_PREFIX}" ABSOLUTE)
 if(NOT QT_DEPLOY_IGNORED_LIB_DIRS)
-    set(QT_DEPLOY_IGNORED_LIB_DIRS "/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")
+    set(QT_DEPLOY_IGNORED_LIB_DIRS "/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")
 endif()
 
 # These are internal implementation details. They may be removed at any time.
@@ -36,7 +36,7 @@ set(__QT_DEPLOY_SYSTEM_NAME "Linux")
 set(__QT_DEPLOY_SHARED_LIBRARY_SUFFIX ".so")
 set(__QT_DEPLOY_IS_SHARED_LIBS_BUILD "ON")
 set(__QT_DEPLOY_TOOL "GRD")
-set(__QT_DEPLOY_IMPL_DIR "/home/vactor/Pash/build/Desktop_Qt_6_11_2_Debug/.qt")
+set(__QT_DEPLOY_IMPL_DIR "/home/vactor/Desktop/Pash/build/Desktop_Qt_6_11_2_Debug/.qt")
 set(__QT_DEPLOY_VERBOSE "")
 set(__QT_CMAKE_EXPORT_NAMESPACE "Qt6")
 set(__QT_LIBINFIX "")
@@ -61,7 +61,7 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "")
 
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
-    "/home/vactor/Pash/build/Desktop_Qt_6_11_2_Debug/.qt/QtDeployTargets.cmake"
+    "/home/vactor/Desktop/Pash/build/Desktop_Qt_6_11_2_Debug/.qt/QtDeployTargets.cmake"
     "/home/vactor/Qt/6.11.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)

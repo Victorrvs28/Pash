@@ -1,11 +1,11 @@
 Pash_autogen/timestamp: \
-	/home/vactor/Pash/CMakeLists.txt \
-	/home/vactor/Pash/build/Desktop_Qt_6_11_2_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake \
-	/home/vactor/Pash/build/Desktop_Qt_6_11_2_Debug/.qtcreator/cmake-helper/package-manager.cmake \
-	/home/vactor/Pash/build/Desktop_Qt_6_11_2_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake \
-	/home/vactor/Pash/build/Desktop_Qt_6_11_2_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
-	/home/vactor/Pash/build/Desktop_Qt_6_11_2_Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
-	/home/vactor/Pash/main.cpp \
+	/home/vactor/Desktop/Pash/CMakeLists.txt \
+	/home/vactor/Desktop/Pash/build/Desktop_Qt_6_11_2_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake \
+	/home/vactor/Desktop/Pash/build/Desktop_Qt_6_11_2_Debug/.qtcreator/cmake-helper/package-manager.cmake \
+	/home/vactor/Desktop/Pash/build/Desktop_Qt_6_11_2_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake \
+	/home/vactor/Desktop/Pash/build/Desktop_Qt_6_11_2_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
+	/home/vactor/Desktop/Pash/build/Desktop_Qt_6_11_2_Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	/home/vactor/Desktop/Pash/main.cpp \
 	/home/vactor/Qt/6.11.2/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	/home/vactor/Qt/6.11.2/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
 	/home/vactor/Qt/6.11.2/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
@@ -76,89 +76,29 @@ Pash_autogen/timestamp: \
 	/home/vactor/Qt/6.11.2/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
 	/home/vactor/Qt/6.11.2/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargetsPrecheck.cmake \
 	/home/vactor/Qt/6.11.2/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCXXInformation.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeGenericSystem.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeSystem.cmake.in \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeUnixFindMake.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/GNU.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/FindThreads.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/GNUInstallDirs.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake \
-	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake \
 	/home/vactor/Qt/Tools/CMake/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake \

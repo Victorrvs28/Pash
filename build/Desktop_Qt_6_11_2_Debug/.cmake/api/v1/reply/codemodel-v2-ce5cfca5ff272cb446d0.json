@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Pash::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Pash-Debug-e462be2e940d8dc67d33.json",
+					"jsonFile" : "target-Pash-Debug-f0fc6efce78a22e993e9.json",
 					"name" : "Pash",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/vactor/Pash/build/Desktop_Qt_6_11_2_Debug",
-		"source" : "/home/vactor/Pash"
+		"build" : "/home/vactor/Desktop/Pash/build/Desktop_Qt_6_11_2_Debug",
+		"source" : "/home/vactor/Desktop/Pash"
 	},
 	"version" : 
 	{
