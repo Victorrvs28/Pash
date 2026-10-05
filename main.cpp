@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 
     if(splitted == true){
         if(std::filesystem::exists("/usr/bin/apt")){
-            #include "apt.inc"
+            #include "aptsplit.inc"
         }
         //ADD MORE PACKAGE MANAGERS HERE!!
     }
@@ -39,25 +39,9 @@ int main(int argc, char *argv[])
             return 1;
         }
         if(std::filesystem::exists("/usr/bin/apt")){
-            qDebug()<<"apt exists.";
-            string list = "apt-mark showmanual > APTLIST.tmp";
-            system(list.c_str());
-            std::string line;
-            std::ifstream listFile("APTLIST.tmp");
-            if (!listFile.is_open()) {
-                qDebug() << "Was not possible open APTLIST.tmp";
-                return 1;
-            }
-
-            while(std::getline(listFile, line)){
-
-                    output << "sudo apt install " << line << '\n';
-
-            }
-            listFile.close();
-            output.close();
-
+            #include "aptnonsplit.inc"
         }
-    }
+    //ADD PACKAGE MANAGERS HERE!!!
+    } // splitted
     return 0;
 }
