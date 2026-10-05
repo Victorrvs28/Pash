@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-82de942c887ae655567a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Pash",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Pash::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pash-Debug-e462be2e940d8dc67d33.json",
+					"name" : "Pash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Pash_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pash_autogen-Debug-84e5989a4a872f2c95d3.json",
+					"name" : "Pash_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Pash_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pash_autogen_timestamp_deps-Debug-4554b52980c64be3533b.json",
+					"name" : "Pash_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vactor/Pash/build/Desktop_Qt_6_11_2_Debug",
+		"source" : "/home/vactor/Pash"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
