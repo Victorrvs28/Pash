@@ -15,11 +15,13 @@ int main(int argc, char *argv[])
 
     parser.addOption({"split", "splits in two automations (programs|non programs)"});
     parser.addOption({ {"directory", "dir"}, "directory wich the automations will be touched", "directory"});
-
+    parser.addOption({{"mng", "manager"}, "package manager will be choosed"})
     parser.parse(app.arguments());
 
     bool splitted = parser.isSet("split");
-    QString path = parser.value("directory");
+    QString manager = parser.value("mng")
+    string managerstr = manager.toStdString;
+    QString path = parser.value("dir");
     string pathstr = path.toStdString();
 
     if(splitted == true){
