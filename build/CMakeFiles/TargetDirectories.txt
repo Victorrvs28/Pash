@@ -1,9 +1,0 @@
-/home/vactor/Desktop/Pash/build/CMakeFiles/Pash.dir
-/home/vactor/Desktop/Pash/build/CMakeFiles/edit_cache.dir
-/home/vactor/Desktop/Pash/build/CMakeFiles/rebuild_cache.dir
-/home/vactor/Desktop/Pash/build/CMakeFiles/list_install_components.dir
-/home/vactor/Desktop/Pash/build/CMakeFiles/install.dir
-/home/vactor/Desktop/Pash/build/CMakeFiles/install/local.dir
-/home/vactor/Desktop/Pash/build/CMakeFiles/install/strip.dir
-/home/vactor/Desktop/Pash/build/CMakeFiles/Pash_autogen_timestamp_deps.dir
-/home/vactor/Desktop/Pash/build/CMakeFiles/Pash_autogen.dir

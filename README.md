@@ -12,8 +12,10 @@ snap
 you can Just exec without flags, for make a universal installer in the Pash Executable directory.
 #### Flags:
 **--split** - splits the installation: every package manager has your own Bash script.
-**--mng manager** - choose a package manager for being the only
-**--dir folder** - choose a folder for putting the shell scripts
+
+**--mng <manager>** - choose a package manager for being the only
+
+**--dir <folder>** - choose a folder for putting the shell scripts
 ### Build
 #### Dependencies 
 

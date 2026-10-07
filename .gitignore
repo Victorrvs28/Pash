@@ -1,0 +1,4 @@
+# ~/.gitignore_global
+*.swp
+.DS_Store
+build
