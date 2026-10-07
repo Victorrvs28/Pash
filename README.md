@@ -1,44 +1,59 @@
 # Pash
-## The best software for micro computer formatting/migration.
-Pash is a software for Linux wich you can install all your programs installed by your main machine on other machines, just having the same package managers.
+
+## The best software for microcomputer formatting/migration.
+
+Pash is a software for Linux that allows you to install all the programs from your main machine on other machines, as long as they have the same package managers.
+
 ### About the name:
-Pash is the mix of Package with Bash, it means that it makes a Bash script with installs all your programs installed with package managers
+
+Pash is a combination of Package and Bash. It means that it creates a Bash script that installs all your programs installed through package managers.
+
 ### Supported package managers:
+
 apt
+
 snap
 
-**renember comming here latter, this program evolues fast, lately will have more package managers available!**
+**Remember to check back here later. This program evolves fast, and more package managers will be available soon!**
+
 ### How to use:
-you can Just exec without flags, for make a universal installer in the Pash Executable directory.
+
+You can just run Pash without any flags to create a universal installer in the Pash executable directory.
+
 #### Flags:
-**--split** - splits the installation: every package manager has your own Bash script.
 
-**--mng <manager>** - choose a package manager for being the only
+**--split** - Splits the installation: every package manager has its own Bash script.
 
-**--dir <folder>** - choose a folder for putting the shell scripts
+**--mng <manager>** - Choose a package manager to be the only one used.
+
+**--dir <folder>** - Choose a folder for putting the shell scripts.
+
 ### Build
-#### Dependencies 
 
-**1- c++ 17 compiler**
+#### Dependencies
+
+**1- C++17 compiler**
 
 **2- CMake 3.16 or later**
 
-**3- QT6 core**
+**3- Qt6 Core**
 
 #### Build
-for build, open your linux terminal **(on windows use WSL)** and run this commands:
+
+To build Pash, open your Linux terminal **(on Windows, use WSL)** and run these commands:
 
 ```
 chmod +x build.sh
 ./build.sh
-
 ```
-## How to add support to new package managers
+
+## How to add support for new package managers
 
 If you want to contribute by adding support for a new package manager, create two files:
 
 ```text
 [package manager]Split.inc
+
 [package manager]NonSplit.inc
 ```
 
@@ -46,15 +61,17 @@ Put the implementation of the package manager inside the corresponding file.
 
 ### Split mode
 
-The `[packate manager]Split.inc` file is responsible for creating **two files**:
+The `[package manager]Split.inc` file is responsible for creating **two files**:
 
 1. A temporary file containing the list of packages installed by the user.
+
 2. A Bash script containing the commands required to install those packages.
 
 For example, for APT:
 
 ```
 APTLIST.tmp
+
 apt.sh
 ```
 
@@ -89,7 +106,9 @@ std::string cmd =
     "apt-mark showmanual > '" + listPath.string() + "'";
 
 if (std::system(cmd.c_str()) != 0) {
+
     qDebug() << "apt-mark failed";
+
 }
 ```
 
@@ -97,6 +116,7 @@ After the list has been generated, open both files:
 
 ```
 std::ifstream listFile(listPath);
+
 std::ofstream aptList(scriptPath);
 ```
 
@@ -110,9 +130,13 @@ Then read the package list line by line using `std::getline`:
 
 ```
 std::string line;
+
 line << "sudo apt install "
+
 while (std::getline(listFile, line)) {
+
 aptList << line
+
 }
 ```
 
@@ -122,7 +146,9 @@ For example, if the list contains:
 
 ```
 cmake
+
 g++
+
 qt6-base-dev
 ```
 
@@ -130,6 +156,7 @@ the generated script will contain:
 
 ```
 #!/bin/bash
+
 sudo apt install -y cmake g++ qt6-base-dev
 ```
 
@@ -137,6 +164,7 @@ Finally, close the files and remove the temporary package list:
 
 ```
 listFile.close();
+
 aptList.close();
 
 std::filesystem::remove(listPath);
@@ -147,15 +175,24 @@ std::filesystem::remove(listPath);
 A new `managerSplit.inc` implementation should therefore:
 
 1. Determine how to list packages installed by the user.
+
 2. Create a temporary list file.
+
 3. Run the package manager's list command.
+
 4. Open the list file.
+
 5. Create the installation script.
+
 6. Write `#!/bin/bash` as the first line.
+
 7. Read the package list using `std::getline`.
+
 8. Generate the appropriate installation command for each package.
+
 9. Close both files.
-10. Remove the temporary list file.
+
+10. Remove the temporary package list.
 
 The generated installation command depends on the package manager.
 
@@ -163,7 +200,9 @@ For example:
 
 ```
 APT     → sudo apt install -y <package>
+
 Pacman  → sudo pacman -S <package>
+
 DNF     → sudo dnf install <package>
 ```
 
@@ -183,15 +222,16 @@ For example:
 
 ```
 aptSplit.inc
+
 aptNonSplit.inc
 
 pacmanSplit.inc
+
 pacmanNonSplit.inc
 
 dnfSplit.inc
+
 dnfNonSplit.inc
 ```
 
-Keep the implementation specific to the package manager inside these files. This keeps the main Pash source cleaner and makes adding support for new package managers easier.
-
-
+Keep the implementation specific to the package manager inside these files. This keeps the main Pash source cleaner and makes it easier to add support for new package managers.
