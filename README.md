@@ -25,14 +25,8 @@ you can Just exec without flags, for make a universal installer in the Pash Exec
 for build, open your linux terminal **(on windows use WSL)** and run this commands:
 
 ```
-git clone https://github.com/Victorrvs28/Pash.git
-cd Pash
-
-mkdir build
-cd build
-
-cmake ..
-cmake --build .
+chmod +x build.sh
+./build.sh
 
 ```
 ## How to add support to new package managers
@@ -48,7 +42,7 @@ Put the implementation of the package manager inside the corresponding file.
 
 ### Split mode
 
-The `*Split.inc` file is responsible for creating **two files**:
+The `[packate manager]Split.inc` file is responsible for creating **two files**:
 
 1. A temporary file containing the list of packages installed by the user.
 2. A Bash script containing the commands required to install those packages.
