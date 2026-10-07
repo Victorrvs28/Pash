@@ -1,4 +1,3 @@
-        qDebug()<<"apt exists.";
             string list = "apt-mark showmanual > APTLIST.tmp";
             system(list.c_str());
             std::string line;

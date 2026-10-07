@@ -53,12 +53,10 @@ int main(int argc, char *argv[])
         if (std::filesystem::exists("/usr/bin/apt")) {
             #include "managers/aptnonsplit.inc"
         }
-        else debug()<<"apt does not exists.";
+        else qDebug()<<"apt does not exists.";
         if (std::filesystem::exists("/usr/bin/snap")) {
             #include "managers/snapnonsplit.inc"
-        } else {
-            qDebug() << "snap does not exists.";
-        }
+        } else qDebug()<<"snap does not exists.";
 
         output.close();
         std::filesystem::permissions(allScript,
