@@ -28,13 +28,13 @@ int main(int argc, char *argv[])
 
     if (manager.isEmpty() && splitted == true) {
         if (std::filesystem::exists("/usr/bin/apt")) {
-            #include "aptsplit.inc"
+            #include "managers/aptsplit.inc"
         } else {
             qDebug() << "apt not found!";
         }
 
         if (std::filesystem::exists("/usr/bin/snap")) {
-            #include "snapsplit.inc"
+            #include "managers/snapsplit.inc"
         } else {
             qDebug() << "snap not found";
         }
@@ -51,11 +51,11 @@ int main(int argc, char *argv[])
         output << "#!/bin/bash\n";
 
         if (std::filesystem::exists("/usr/bin/apt")) {
-            #include "aptnonsplit.inc"
+            #include "managers/aptnonsplit.inc"
         }
 
         if (std::filesystem::exists("/usr/bin/snap")) {
-            #include "snapnonsplit.inc"
+            #include "managers/snapnonsplit.inc"
         } else {
             qDebug() << "snap does not exists";
         }
@@ -70,11 +70,11 @@ int main(int argc, char *argv[])
     //ADD PACKAGE MANAGERS HERE!!!
     if (manager == "apt") {
         if (std::filesystem::exists("/usr/bin/apt")) {
-            #include "aptsplit.inc"
+            #include "managers/aptsplit.inc"
         }
     } else if (manager == "snap") {
         if (std::filesystem::exists("/usr/bin/snap")) {
-            #include "snapsplit.inc"
+            #include "managers/snapsplit.inc"
         }
     } else if (!manager.isEmpty()) {
         qDebug() << "unknown package manager:" << manager;
