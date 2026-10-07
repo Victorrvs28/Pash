@@ -5,13 +5,15 @@ Pash is a software for Linux wich you can install all your programs installed by
 Pash is the mix of Package with Bash, it means that it makes a Bash script with installs all your programs installed with package managers
 ### Supported package managers:
 apt
+snap
+
 **renember comming here latter, this program evolues fast, lately will have more package managers available!**
 ### How to use:
 you can Just exec without flags, for make a universal installer in the Pash Executable directory.
 #### Flags:
 **--split** - splits the installation: every package manager has your own Bash script.
-
-**--dir** - choose a dir for putting the shell scripts
+**--mng manager** - choose a package manager for being the only
+**--dir folder** - choose a folder for putting the shell scripts
 ### Build
 #### Dependencies 
 
@@ -106,13 +108,13 @@ Then read the package list line by line using `std::getline`:
 
 ```
 std::string line;
-
+line << "sudo apt install "
 while (std::getline(listFile, line)) {
-    aptList << "sudo apt install -y " << line << '\n';
+aptList << line
 }
 ```
 
-The result will be a script containing one installation command for each package.
+The result will be the final script.
 
 For example, if the list contains:
 
@@ -126,9 +128,7 @@ the generated script will contain:
 
 ```
 #!/bin/bash
-sudo apt install -y cmake
-sudo apt install -y g++
-sudo apt install -y qt6-base-dev
+sudo apt install -y cmake g++ qt6-base-dev
 ```
 
 Finally, close the files and remove the temporary package list:
@@ -142,7 +142,7 @@ std::filesystem::remove(listPath);
 
 ### Split implementation requirements
 
-A new `Split.inc` implementation should therefore:
+A new `managerSplit.inc` implementation should therefore:
 
 1. Determine how to list packages installed by the user.
 2. Create a temporary list file.
