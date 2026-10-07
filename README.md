@@ -15,7 +15,7 @@ you can Just exec without flags, for make a universal installer in the Pash Exec
 ### Build
 #### Dependencies 
 
-**1- c++ 1 compiler7**
+**1- c++ 17 compiler**
 
 **2- CMake 3.16 or later**
 
