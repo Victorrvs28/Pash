@@ -24,7 +24,6 @@ else {
             List << line << ' ';
 
         }
-        qDebug() << "finished writing installEverything.sh";
     }
 
     listFile.close();
